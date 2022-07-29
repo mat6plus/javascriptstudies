@@ -37,7 +37,13 @@ if (playGame){
                 \nplayerOne Wins!`;
             alert(result)
             let playAgain = confirm("Wanna play again?")
-            playAgain ? location.reload() : alert("Thanks for playing again")
+            playAgain ? location.reload() : alert("Thanks for playing again");
+        } else {
+            alert("You didn't enter a rock, paper or scissors");
         }
+    } else {
+        alert("I guess you changed your mind.")
     }
+} else {
+    alert("OK next time.")
 }
